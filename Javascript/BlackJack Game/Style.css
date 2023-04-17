@@ -1,0 +1,43 @@
+body{
+    color:goldenrod;
+    background-image: url("bj-bg.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message{
+    font-style: italic;
+}
+
+button{
+    font-weight: bold;
+    color: darkgreen;
+    background: gold;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.box {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    top: 50%;
+    transform: translate(0, 50%);
+    border-radius: 30px;
+    text-align: center;
+    border: 5px solid #623412;
+    background-color: #623412;
+}
